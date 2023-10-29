@@ -19,7 +19,7 @@ include(HEADER_TEMPLATE);
                     <h5 class="card-title">
                         <?php echo $post['titulo_post']; ?>
                     </h5>
-                    <p class="card-text">
+                    <p class="card-text text-publi">
                         <?php echo $post['conteudo_post']; ?>
                     </p>
                     <a href="./layouts/view.php?id=<?php echo $post['id_post'] ?>" class="btn btn-next ">Continuar

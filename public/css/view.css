@@ -1,0 +1,14 @@
+h1.titulo-post{
+    font-size: 60px;
+}
+
+hr{
+    color: rgb(17,154,142);
+    width: 100%;
+    font-weight: 5px;
+}
+
+p.texto-post{
+    width: 60%;
+    font-size: 18px;
+}

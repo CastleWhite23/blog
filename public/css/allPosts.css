@@ -9,3 +9,10 @@
 .card-index{
     width: 90%;
 }
+
+p.text-publi{
+    max-width: 70ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
