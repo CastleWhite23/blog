@@ -1,0 +1,38 @@
+
+.nav-color{
+    background: rgb(17,154,142);
+    background: linear-gradient(31deg, rgba(17,154,142,1) 0%, rgba(55,237,126,1) 100%);
+    color: #fff;
+}
+
+.nav-link{
+    color: #fff;
+}
+.color-white{
+    color: #fff;
+}
+.nav-item i{
+    color: #fff;
+    scale: 1.3;
+    transition: .3s all;
+}
+
+.nav-item i:hover{
+    color: black;
+}
+
+.navbar-nav form input.form-control{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+
+ul.navbar-nav form input.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    caret-color: #fff;
+}
