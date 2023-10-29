@@ -48,9 +48,20 @@
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
                     </form>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="<?php echo BASEURL ?>views/layouts/login.php"><i
+
+                    <li class="nav-item dropdown dropstart">
+                        <a class="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                            href="<?php echo BASEURL ?>views/layouts/login.php"><i
                                 class="fa-solid fa-circle-user"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="<?php echo BASEURL ?>views/layouts/dashboard.php"><i
+                                class="fa-solid fa-circle-user color-green"></i>
+                                Menu</a>
+                            </li>
+                            <li><a class="dropdown-item" href="<?php echo BASEURL ?>views/layouts/logout.php"><i
+                                        class="fa-solid fa-right-from-bracket color-green"></i> Deslogar</a></li>
+                        </ul>
                     </li>
                 </ul>
 

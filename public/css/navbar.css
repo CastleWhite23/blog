@@ -36,3 +36,8 @@ ul.navbar-nav form input.form-control:focus {
     box-shadow: none;
     caret-color: #fff;
 }
+.nav-item i.color-green{
+    color: rgb(17,154,142);
+    scale: 1.3;
+    transition: .3s all;
+}
