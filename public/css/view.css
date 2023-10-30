@@ -9,6 +9,7 @@ hr{
 }
 
 p.texto-post{
-    width: 60%;
+    max-width: 60%;
+    word-wrap: break-word;
     font-size: 18px;
 }
