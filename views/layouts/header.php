@@ -59,6 +59,10 @@
                                 class="fa-solid fa-circle-user color-green"></i>
                                 Menu</a>
                             </li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo BASEURL ?>views/layouts/accont.php"><i class="fa-solid fa-user-plus color-green"></i>
+                                Cadastro</a>
+                            </li>
                             <li><a class="dropdown-item" href="<?php echo BASEURL ?>views/layouts/logout.php"><i
                                         class="fa-solid fa-right-from-bracket color-green"></i> Deslogar</a></li>
                         </ul>
