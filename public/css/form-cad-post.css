@@ -1,0 +1,21 @@
+.inpt-titulo{
+    border: none;
+    border-radius: 0px;
+    border-bottom: 3px solid rgba(17, 154, 142, 1);
+}
+.inpt-titulo:focus {
+    outline: none;
+    box-shadow: none;
+    caret-color: #000;
+
+}
+.inpt-texto{
+    border-bottom: 2px solid rgba(17, 154, 142, 1);
+    border-radius: 10px;
+}
+
+.form-post{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
