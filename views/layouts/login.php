@@ -13,9 +13,13 @@ include(HEADER_TEMPLATE);
 ?>
 
 <div class="form-login">
-
     <form class="row" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
         <h1>login</h1>
+        <?php if (isset($_SESSION['login_error'])) {  ?>
+            <div class="alert alert-success" role="alert">
+                <?php echo $_SESSION['login_error']; ?>
+            </div>
+        <?php } ?>
         <div class="col-12">
             <label for="inputAddress2" class="form-label">Nome de úsuario:</label>
             <input type="text" class="form-control" id="inputAddress2" name="username" required>
@@ -40,8 +44,4 @@ include(FOOTER_TEMPLATE);
 
 <!-- erro de login -->
 
-<!-- <?php //if (isset($_SESSION['login_error'])) {  ?>
-        <div class="alert alert-danger" role="alert">
-            <?php //echo $_SESSION['login_error']; ?>
-        </div>
-    <?php // } ?> -->
+<!-- 

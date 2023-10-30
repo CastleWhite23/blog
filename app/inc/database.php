@@ -87,7 +87,7 @@
           
 
             if($verification > 0){
-                echo "Nome de usuário inválido";
+                $_SESSION['login_error'] = "Nome de usuário inválido";
     
             }else{
                 $postController->create("user", $user);

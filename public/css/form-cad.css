@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    max-height: 100%;
 }
 
 .form-cad form {
@@ -10,7 +10,7 @@
     background: rgb(17, 154, 142);
     background: linear-gradient(157deg, rgba(17, 154, 142, 1) 0%, rgba(55, 237, 126, 1) 100%);
     width: 50%;
-    height: 450px;
+    height: 550px;
     padding: 2rem;
     border-radius: 15px;
     color: #fff;

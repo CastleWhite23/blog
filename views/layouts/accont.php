@@ -3,6 +3,7 @@
 <?php
 include("../../app/config/config.php");
 include(DBAPI);
+ $_SESSION['login_error'] = "";
 createUser();
 include(HEADER_TEMPLATE);
 ?>
@@ -13,6 +14,17 @@ include(HEADER_TEMPLATE);
 
     <form class="row g-2" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
         <h1>Cadastro</h1>
+        <?php if(isset($_SESSION['login_error'])) {  
+            if($_SESSION['login_error'] != ""){ ?>
+                <div class="alert alert-success" role="alert">
+                     <?php echo $_SESSION['login_error']; ?>
+                </div>
+            <?php
+            }else{
+                echo "";
+            }      
+    }?>
+    
         <div class="col-12">
             <label for="inputAddress" class="form-label">Nome completo:</label>
             <input type="text" class="form-control" id="inputAddress" name="dataUser[nome]" required>
