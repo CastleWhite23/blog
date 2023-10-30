@@ -9,4 +9,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .3 all;
+}
+
+.card-options:hover{
+    background: rgb(17,154,142);
+    background: linear-gradient(31deg, rgba(17,154,142,1) 0%, rgba(55,237,126,1) 100%);
+    border: none;
+    color: #fff;
+
 }

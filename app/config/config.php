@@ -20,7 +20,7 @@ if (!defined('ABSPATH'))
 
 //caminho no server para o sistema 
 if (!defined('BASEURL'))
-    define('BASEURL', '/blog-php/');
+    define('BASEURL', '/blog/');
 
 if (!defined('DBAPI'))
     define('DBAPI', ABSPATH . 'app/inc/database.php');
